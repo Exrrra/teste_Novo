@@ -20,7 +20,7 @@ const App = () => {
           <Header />
           <main className="AppBody">
             <Routes>
-              <Route path="/test_Novo" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/login/*" element={<Login />} />
               <Route path="/foto/:id" element={<Photo />} />
               <Route path="/perfil/:user" element={<UserProfile />} />
